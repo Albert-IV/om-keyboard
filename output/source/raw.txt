@@ -1,0 +1,22 @@
+points:
+  zones:
+    matrix:
+      columns:
+        pinky:
+        ring:
+        middle:
+        index:
+        inner:
+      rows:
+        bottom:
+        home:
+        top:
+    thumb:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [0,-1u]
+      columns:
+        home:
+        far:
+      rows:
+        home:

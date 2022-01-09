@@ -1,0 +1,29 @@
+{
+  "name": "cockamamie",
+  "version": "0.0.0",
+  "description": "new keeb who this",
+  "main": "index.js",
+  "scripts": {
+    "gen": "ergogen ./src/cockamamie.yaml",
+    "patch-footprints": "cp ./footprints/* ./node_modules/ergogen/src/footprints/ ",
+    "patch-and-gen": "npm run patch-footprints && npm run gen",
+    "clean-patch-and-gen": "npm run patch-footprints && npm run gen -- --clean",
+    "watch-gen": "watch 'npm run gen' ./src",
+    "watch-patch-and-gen": "watch 'npm run patch-and-gen' ./src ./footprints",
+    "watch-clean-patch-and-gen": "watch 'npm run clean-patch-and-gen' ./src ./footprints"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albert-IV/cockamamie.git"
+  },
+  "author": "Albert Engelbrecht <me@albertengelbrecht.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Albert-IV/cockamamie/issues"
+  },
+  "homepage": "https://github.com/Albert-IV/cockamamie#readme",
+  "dependencies": {
+    "ergogen": "^3.1.0",
+    "watch": "^1.0.2"
+  }
+}

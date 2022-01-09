@@ -1,0 +1,369 @@
+matrix_pinky_bottom:
+    x: 0
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_pinky_bottom
+        colrow: pinky_bottom
+        col: &ref_0
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: pinky
+        row: bottom
+matrix_pinky_home:
+    x: 0
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_pinky_home
+        colrow: pinky_home
+        col: *ref_0
+        row: home
+matrix_pinky_top:
+    x: 0
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_pinky_top
+        colrow: pinky_top
+        col: *ref_0
+        row: top
+matrix_ring_bottom:
+    x: 19
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_ring_bottom
+        colrow: ring_bottom
+        col: &ref_1
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: ring
+        row: bottom
+matrix_ring_home:
+    x: 19
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_ring_home
+        colrow: ring_home
+        col: *ref_1
+        row: home
+matrix_ring_top:
+    x: 19
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_ring_top
+        colrow: ring_top
+        col: *ref_1
+        row: top
+matrix_middle_bottom:
+    x: 38
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_middle_bottom
+        colrow: middle_bottom
+        col: &ref_2
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: middle
+        row: bottom
+matrix_middle_home:
+    x: 38
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_middle_home
+        colrow: middle_home
+        col: *ref_2
+        row: home
+matrix_middle_top:
+    x: 38
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_middle_top
+        colrow: middle_top
+        col: *ref_2
+        row: top
+matrix_index_bottom:
+    x: 57
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_index_bottom
+        colrow: index_bottom
+        col: &ref_3
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: index
+        row: bottom
+matrix_index_home:
+    x: 57
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_index_home
+        colrow: index_home
+        col: *ref_3
+        row: home
+matrix_index_top:
+    x: 57
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_index_top
+        colrow: index_top
+        col: *ref_3
+        row: top
+matrix_inner_bottom:
+    x: 76
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_inner_bottom
+        colrow: inner_bottom
+        col: &ref_4
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: inner
+        row: bottom
+matrix_inner_home:
+    x: 76
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_inner_home
+        colrow: inner_home
+        col: *ref_4
+        row: home
+matrix_inner_top:
+    x: 76
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_inner_top
+        colrow: inner_top
+        col: *ref_4
+        row: top
+thumb_home_home:
+    x: 76
+    'y': -19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: thumb_home_home
+        colrow: home_home
+        col:
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: home
+        row: home
+thumb_far_home:
+    x: 95
+    'y': -19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: thumb_far_home
+        colrow: far_home
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: far
+        row: home

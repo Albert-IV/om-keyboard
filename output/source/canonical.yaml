@@ -1,0 +1,24 @@
+points:
+    zones:
+        matrix:
+            columns:
+                pinky: null
+                ring: null
+                middle: null
+                index: null
+                inner: null
+            rows:
+                bottom: null
+                home: null
+                top: null
+        thumb:
+            anchor:
+                ref: matrix_inner_bottom
+                shift:
+                    - 0
+                    - '-1u'
+            columns:
+                home: null
+                far: null
+            rows:
+                home: null
