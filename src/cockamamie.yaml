@@ -1,22 +1,116 @@
+units:
+  u: 19.05
 points:
   zones:
     matrix:
       columns:
-        pinky:
-        ring:
-        middle:
-        index:
-        inner:
+        pinky.rows:
+          bottom:
+            bind: [1U, 1U, 0U, 0U]
+            column_net: P7
+          home:
+            bind: [1U, 1U, 1U, 0U]
+            column_net: P6
+          top:
+            bind: [0U, 1U, 1U, 0U]
+            column_net: P5
+        ring.rows:
+          bottom:
+            column_net: P4
+          home:
+            column_net: P3
+          top:
+            column_net: P0
+        middle.rows:
+          bottom:
+            column_net: P1
+          home:
+            column_net: P19
+          top:
+            column_net: P18
+        index.rows:
+          bottom:
+            column_net: P15
+          home:
+            column_net: P14
+          top:
+            column_net: P16
+        inner.rows:
+          bottom:
+            bind: [1U, 1U, 0U, 1U]
+            column_net: P10
+          home:
+            bind: [1U, 1U, 1U, 1U]
+            column_net: P20
+          top:
+            bind: [0U, 1U, 1U, 1U]
+            column_net: P21
       rows:
         bottom:
         home:
         top:
+      key:
+        footprints:
+          mx:
+            type: mx
+            nets:
+              from: GND
+              to: =column_net
+            params:
+                keycaps: true
+                reverse: true
     thumb:
       anchor:
         ref: matrix_inner_bottom
-        shift: [0,-1u]
+        shift: [0,-1U]
       columns:
-        home:
-        far:
+        home.rows.only.column_net: P8
+        far.rows.only.column_net: P9
       rows:
-        home:
+        only:
+      key:
+        footprints:
+          mx:
+            type: mx
+            nets:
+              from: GND
+              to: =column_net
+            params:
+                keycaps: true
+                reverse: true
+outlines:
+  exports:
+    raw:
+      - type: keys
+        side: left
+        size: [20,20]
+        corner: 1
+pcbs:
+  a_tux:
+    outlines:
+      main:
+        outline: raw
+    footprints:
+      promicro:
+        type: promicro
+        anchor:
+          ref: matrix_inner_top
+          shift: [19, -8]
+          rotate: -90
+        params:
+          orientation: down
+      trrs:
+        type: trrs
+        nets:
+          A: GND
+          B: GND
+          C: P2
+          D: VCC
+        anchor:
+          ref: matrix_inner_home
+          shift: [29, -25]
+          rotate: -90
+        params:
+          reverse: true
+          symmetric: true
+
