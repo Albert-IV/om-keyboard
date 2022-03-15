@@ -115,7 +115,7 @@ outlines:
         size: [20,20]
         corner: 1
 pcbs:
-  cockamamie:
+  om:
     outlines:
       main:
         outline: raw
