@@ -81,10 +81,10 @@ points:
                 reverse: true
                 hotswap: false
     thumb:
-      rotate: -30.000
       anchor:
         ref: matrix_inner_bottom
         shift: [-1.5U, .9U]
+        rotate: -30.000
       columns:
         home:
           spread: cx
