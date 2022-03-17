@@ -1,10 +1,10 @@
 {
-  "name": "cockamamie",
+  "name": "om-keyboard",
   "version": "0.0.0",
-  "description": "new keeb who this",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "gen": "ergogen ./src/cockamamie.yaml",
+    "gen": "ergogen ./src/om.yaml",
     "patch-footprints": "cp ./footprints/* ./node_modules/ergogen/src/footprints/ ",
     "patch-and-gen": "npm run patch-footprints && npm run gen",
     "clean-patch-and-gen": "npm run patch-footprints && npm run gen -- --clean",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Albert-IV/cockamamie.git"
+    "url": "git+https://github.com/Albert-IV/om-keyboard.git"
   },
   "author": "Albert Engelbrecht <me@albertengelbrecht.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Albert-IV/cockamamie/issues"
+    "url": "https://github.com/Albert-IV/om-keyboard/issues"
   },
-  "homepage": "https://github.com/Albert-IV/cockamamie#readme",
+  "homepage": "https://github.com/Albert-IV/om-keyboard#readme",
   "dependencies": {
     "ergogen": "^3.1.0",
     "watch": "^1.0.2"
