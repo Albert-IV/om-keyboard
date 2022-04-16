@@ -20,6 +20,12 @@ Initial prototype using 34 keys, choc spacing vertically and MX spacing horizont
 
 PCB's were ordered from JLCPCB and built roughly Feb 23-24th 2022.  Used as a daily driver for about a month before making iterations for Rev 1
 
+# Rev 1 Photos
+
+![Left Side](img/rev1/left.jpg)
+
+![Right Side](img/rev1/right.jpg)
+
 # Rev 0 Photos
 
 ![MBK Build](img/rev0/IMG_3447.jpeg)
