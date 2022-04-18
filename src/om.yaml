@@ -1,6 +1,3 @@
-units:
-  cx: 18 # 18mm Choc X spacing
-  cy: 17 # 17mm Choc Y spacing
 points:
   key:
     padding: cy
@@ -24,7 +21,7 @@ points:
           stagger: 17
           origin: [-12, -19]
           rotate: -5
-          spread: 1U
+          spread: 1.2U
           rows:
             bottom:
               column_net: P4
@@ -54,7 +51,7 @@ points:
               column_net: P16
         inner:
           stagger: -3
-          spread: 1U
+          spread: 1cx
           rows:
             bottom:
               bind: [1U, 1U, 2U, 1U]
@@ -83,7 +80,7 @@ points:
     thumb:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-1.5U, .9U]
+        shift: [-1.2U, -1U]
         rotate: -30.000
       columns:
         home:
@@ -142,4 +139,23 @@ pcbs:
         params:
           reverse: true
           symmetric: true
+      reset:
+        type: jumper
+        anchor:
+          ref: matrix_index_top
+          shift: [0, .52U]
+        nets:
+          from: GND
+          to: RST
+      jst:
+        type: jstphRev
+        anchor:
+          ref: matrix_inner_home
+          shift: [1.4U, -.8U]
+          rotate: -90
+        nets:
+          pos: RAW
+          neg: GND
+        params:
+          reversible: true
 
