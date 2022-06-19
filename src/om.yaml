@@ -80,7 +80,7 @@ points:
     thumb:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-1.2U, -1U]
+        shift: [-1.15U, -1.2U]
         rotate: -30.000
       columns:
         home:
