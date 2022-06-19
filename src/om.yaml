@@ -80,16 +80,18 @@ points:
     thumb:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-1.15U, -1.2U]
-        rotate: -30.000
+        shift: [-1.3U, -1.4U]
+        rotate: -20.000
       columns:
         home:
           spread: cx
           rows.only:
             column_net: P8
         far:
+          rotate: -10.000
           spread: cx
           rows.only:
+            shift: [0.1U, -0.07U]
             column_net: P9
       rows:
         only:
