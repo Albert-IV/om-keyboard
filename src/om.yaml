@@ -120,10 +120,10 @@ pcbs:
         outline: raw
     footprints:
       promicro:
-        type: promicro
+        type: promicro_pretty
         anchor:
           ref: matrix_inner_top
-          shift: [19, -8]
+          shift: [21, -7]
           rotate: -90
         params:
           orientation: down
@@ -135,9 +135,9 @@ pcbs:
           C: P2
           D: VCC
         anchor:
-          ref: matrix_inner_home
-          shift: [29, -25]
-          rotate: -90
+          ref: matrix_inner_top
+          shift: [38, 10]
+          rotate: 0
         params:
           reverse: true
           symmetric: true
@@ -153,11 +153,34 @@ pcbs:
         type: jstphRev
         anchor:
           ref: matrix_inner_home
-          shift: [1.4U, -.8U]
-          rotate: -90
+          shift: [.6U, -.7U]
+          rotate: 90
         nets:
-          pos: RAW
+          pos: POSITIVE
           neg: GND
         params:
           reversible: true
+      puck:
+        type: tentingpuck
+        anchor:
+          ref: matrix_middle_home
+          shift: [0, -8]
+          rotate: 60
+        params:
+          reverseSilks: false
+          centerHole: false
+          northHole: true
+          westHole: true
+          southHole: false
+          eastHole: true
+      on-off-switch:
+        type: slider
+        nets:
+          from: POSITIVE
+          to: RAW
+        anchor:
+          ref: matrix_inner_home
+          shift: [28, -.7U]
+          rotate: -90
+
 

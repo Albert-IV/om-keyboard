@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "gen": "ergogen ./src/om.yaml",
-    "patch-footprints": "cp ./footprints/* ./node_modules/ergogen/src/footprints/ ",
+    "patch-footprints": "patch-ergogen ergogen ergogen-contrib",
     "patch-and-gen": "npm run patch-footprints && npm run gen",
     "clean-patch-and-gen": "npm run patch-footprints && npm run gen -- --clean",
     "watch-gen": "watch 'npm run gen' ./src",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/Albert-IV/om-keyboard#readme",
   "dependencies": {
     "ergogen": "^3.1.0",
+    "ergogen-contrib": "0.0.1",
     "watch": "^1.0.2"
   }
 }
