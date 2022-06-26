@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name "kbd")(type "KiCad")(uri "C:/Users/WhoAmI/Desktop/keyboards/footprints/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
-  (lib (name "rev2-mini")(type "KiCad")(uri "C:/Users/WhoAmI/Desktop/keyboards/projects/om-keyboard/rev2-mini/rev2-mini.pretty")(options "")(descr ""))
+  (lib (name "rev2")(type "KiCad")(uri "C:/Users/WhoAmI/Desktop/keyboards/projects/om-keyboard/rev2-mini/rev2-mini.pretty")(options "")(descr ""))
 )
