@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "om")(type "KiCad")(uri "C:/Users/WhoAmI/Desktop/keyboards/projects/om-keyboard/om.pretty")(options "")(descr ""))
+  (lib (name "om")(type "KiCad")(uri "/Users/alberte/personal/om-keyboard/src/om.pretty")(options "")(descr ""))
 )
