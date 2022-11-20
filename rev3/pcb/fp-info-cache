@@ -1,4 +1,4 @@
-20760912473838011
+20762582034302480
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87217,7 +87217,7 @@ pg1350-DR
 
 
 0
-6
+7
 3
 kleeb-pg1350
 pg1350-DRS
@@ -87310,3 +87310,10 @@ pg1350-SR
 0
 2
 2
+om-footprints
+SKHLLCA010
+alps SKHLLCA010 DIP pushbutton
+alps tht dip pushbutton SPST
+0
+4
+3

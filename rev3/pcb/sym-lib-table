@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "kleeb-mcu")(type "KiCad")(uri "${KIPRJMOD}/footprints/kleeb/mcu.kicad_sym")(options "")(descr ""))
+  (lib (name "kleeb-switches")(type "KiCad")(uri "${KIPRJMOD}/footprints/kleeb/switch.kicad_sym")(options "")(descr ""))
 )
