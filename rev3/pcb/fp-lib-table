@@ -3,4 +3,6 @@
   (lib (name "kleeb-mcu")(type "KiCad")(uri "${KIPRJMOD}/footprints/kleeb/mcu.pretty")(options "")(descr ""))
   (lib (name "keebio-parts")(type "KiCad")(uri "${KIPRJMOD}/footprints/Keebio-Parts.pretty")(options "")(descr ""))
   (lib (name "om-footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints/om.pretty")(options "")(descr ""))
+  (lib (name "kleeb-displays")(type "KiCad")(uri "${KIPRJMOD}/footprints/kleeb/display.pretty")(options "")(descr ""))
+  (lib (name "nice-view")(type "KiCad")(uri "${KIPRJMOD}/footprints/nice_view.pretty")(options "")(descr ""))
 )
